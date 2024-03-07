@@ -1,0 +1,319 @@
+body {
+    margin: 0px;
+    padding: 0%;
+
+}
+
+.bg-container {
+    background-color: #ff7e8b;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-card {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    max-width: 80%;
+    max-height: 70%;
+    margin: auto;
+}
+
+.signup_content-container {
+    padding: 30px 30px 30px 30px;
+}
+
+.stay-heading {
+    font-family: "Roboto";
+    font-size: 50px;
+    font-weight: bold;
+    color: hsl(235, 18%, 26%);
+    margin: auto;
+
+}
+
+.stay-para {
+    font-family: "Roboto";
+    font-size: 17px;
+    color: hsl(235, 18%, 26%);
+
+}
+
+li {
+    background: url(/newsletter-sign-up-with-success-message-main/assets/images/icon-list.svg);
+    margin-left: -40px;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 15px;
+    list-style: none;
+    padding: 0px 0 0px 20px;
+    line-height: 2;
+
+}
+
+label {
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    width: 95%;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid hsl(231, 7%, 60%);
+    margin: 10px 10px 10px 0px;
+    padding-left: 10px;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.subscribe-btn {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    transition: ease-in-outa;
+    transition: 0.8s;
+}
+
+
+.subscribe-btn:hover {
+    background-color: hsl(4, 100%, 67%);
+    border: none;
+    outline: none;
+    box-shadow: hsl(4, 100%, 67%) 0px 7px 15px 0px;
+}
+
+
+.signUp-img {
+    max-width: 100%;
+    max-height: 70vh;
+}
+
+/* Success message start */
+
+.sucess-tick-icon {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.hide {
+    display: none;
+    opacity: 0;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-card {
+    background-image: url(/newsletter-sign-up-with-success-message-main/design/celebrator.jpg);
+    background-size: cover;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 20px;
+    max-width: 40%;
+    padding: 40px;
+    margin: auto;
+}
+
+.thanks-heading {
+    font-family: "Roboto";
+    font-size: 40px;
+    margin: auto;
+}
+
+.thanks-para {
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.dismiss-btn {
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(4, 100%, 67%);
+    color: white;
+    transition: ease-in-out;
+    transition: 0.8s;
+}
+
+.dismiss-btn:hover {
+    background-color: #ff6257;
+    border: none;
+    outline: none;
+    box-shadow: hsl(4, 100%, 67%) 0px 7px 15px 0px;
+}
+
+.img-mobile {
+    display: none;
+}
+
+.attribution {
+    text-align: center;
+    margin: auto;
+    background-color: #ff7e8b;
+}
+
+.attribution strong{
+    color: #fff;
+}
+
+@media screen and (max-width:767px) {
+    .bg-container {
+        background-color: hsl(234, 29%, 20%);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .img {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
+    .signUp-img {
+        max-width: 100%;
+    }
+
+
+    .sign-up-card {
+        background-color: white;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0px;
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+
+    .signup_content-container {
+        padding: 0px 0px 80px 0px;
+    }
+
+    .content-section {
+        padding: 0px 20px 0px 20px;
+    }
+
+    .stay-heading {
+        font-family: "Roboto";
+        font-size: 36px;
+        font-weight: bold;
+        color: hsl(235, 18%, 26%);
+        margin-top: 10px;
+
+    }
+
+    .stay-para {
+        font-family: "Roboto";
+        font-size: 16px;
+        color: hsl(235, 18%, 26%);
+
+    }
+
+    li {
+        background: url(/newsletter-sign-up-with-success-message-main/assets/images/icon-list.svg);
+        margin-left: -40px;
+        font-size: 15px;
+        background-repeat: no-repeat;
+        background-size: 15px;
+        list-style: none;
+        padding: 0px 0 10px 20px;
+        line-height: 1;
+
+    }
+
+    .sucess-tick-icon {
+        width: 40px;
+        margin-bottom: 10%;
+
+    }
+
+    .success-card {
+        max-width: 100%;
+        border-radius: 0px;
+        padding: 30px 30px 30px;
+        background-image: url(/newsletter-sign-up-with-success-message-main/design/celebrator.jpg);
+        background-size: cover;
+        height: 100vh;
+
+
+    }
+
+    .thanks-heading {
+        font-family: "Roboto";
+        font-size: 40px;
+        margin: 0% 0% 0%;
+    }
+
+    .thanks-para {
+        font-family: "Roboto";
+        font-size: 16px;
+
+    }
+
+    .dismiss-btn {
+        width: 100%;
+        height: 45px;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background-color: hsl(234, 29%, 20%);
+        color: white;
+        transition: ease-in-outa;
+        transition: 0.8s;
+    }
+
+    .dismiss-btn:hover {
+        background-color: hsl(4, 100%, 67%);
+        border: none;
+        outline: none;
+        box-shadow: hsl(4, 100%, 67%) 0px 7px 15px 0px;
+    }
+
+    .attribution {
+        
+        background-color: #fff;
+    }
+
+    .attribution strong{
+        color: #000000;
+    }    
+
+}
